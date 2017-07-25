@@ -1,21 +1,66 @@
 * {
   font-family: Helvetica;
-  text-align: center;
 }
 
 h1 {
-  color: white;
   font-size: 70px;
-  font-weight: bold;
-}
-
-nav, a{
   color: white;
-  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.section1 {
+.section {
   background-image: url("../images/the-flatiron-building.png");
+  background-size: 1830px 305px;
+  text-align: center;
 }
 
-/* End of day 1 */
+/* The image wasn't high enough <305px, resulting a second image below that wasn't aligned */
+
+.nav {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub h3 {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.sub p {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  background-color: dimgray;
+  text-align: left !important;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 11px;
+  text-align: left;
+}
