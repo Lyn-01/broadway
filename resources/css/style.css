@@ -42,7 +42,6 @@ img {
 
 .sub p {
   font-size: 14px;
-  color: black;
   text-align: center;
 }
 
@@ -55,12 +54,10 @@ img {
 
 .footer {
   background-color: dimgray;
-  text-align: left !important;
+  text-align: left;
   color: white;
-  text-align: center;
 }
 
 .footer p {
   font-size: 11px;
-  text-align: left;
 }
